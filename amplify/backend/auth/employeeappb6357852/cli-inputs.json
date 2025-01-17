@@ -59,10 +59,8 @@
     "dependsOn": [],
     "hostedUI": true,
     "hostedUIDomainName": "employeeappgoogle123",
-    "authProvidersUserPool": [
-      "Google"
-    ],
-    "hostedUIProviderMeta": "[{\"ProviderName\":\"Google\",\"authorize_scopes\":\"openid email profile\",\"AttributeMapping\":{\"email\":\"email\",\"username\":\"sub\"}}]",
+    "authProvidersUserPool": [],
+    "hostedUIProviderMeta": "[]",
     "authProviders": [],
     "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:4200/employee/\"],\"LogoutURLs\":[\"http://localhost:4200/\"]}"
   }
