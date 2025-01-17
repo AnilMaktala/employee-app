@@ -1,0 +1,49 @@
+# this is an auto generated file. This will be overwritten
+
+mutation CreateEmployee(
+  $input: CreateEmployeeInput!
+  $condition: ModelEmployeeConditionInput
+) {
+  createEmployee(input: $input, condition: $condition) {
+    id
+    firstName
+    lastName
+    address
+    createdAt
+    updatedAt
+    owner
+    __typename
+  }
+}
+
+mutation UpdateEmployee(
+  $input: UpdateEmployeeInput!
+  $condition: ModelEmployeeConditionInput
+) {
+  updateEmployee(input: $input, condition: $condition) {
+    id
+    firstName
+    lastName
+    address
+    createdAt
+    updatedAt
+    owner
+    __typename
+  }
+}
+
+mutation DeleteEmployee(
+  $input: DeleteEmployeeInput!
+  $condition: ModelEmployeeConditionInput
+) {
+  deleteEmployee(input: $input, condition: $condition) {
+    id
+    firstName
+    lastName
+    address
+    createdAt
+    updatedAt
+    owner
+    __typename
+  }
+}

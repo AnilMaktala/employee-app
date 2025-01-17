@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "employeeapp",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 365,
+      "apiKeyExpirationDate": "2026-01-17T15:48:47.789Z",
+      "keyDescription": "employeeappkey"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authemployeeappb6357852"
+      },
+      {
+        "mode": "OPENID_CONNECT",
+        "openIDProviderName": "google",
+        "openIDIssuerURL": "https://accounts.google.com/",
+        "openIDClientID": "874503483659-8hc8s4svanr92cq1pkcru4drriipu826.apps.googleusercontent.com",
+        "openIDAuthTTL": "1200",
+        "openIDIatTTL": "1200"
+      }
+    ],
+    "conflictResolution": {}
+  }
+}

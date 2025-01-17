@@ -1,0 +1,58 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-employeeapp-dev-84743-authRole",
+      "UnauthRoleArn": "arn:aws:iam::932080214319:role/amplify-employeeapp-dev-84743-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::932080214319:role/amplify-employeeapp-dev-84743-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-employeeapp-dev-84743-deployment",
+      "UnauthRoleName": "amplify-employeeapp-dev-84743-unauthRole",
+      "StackName": "amplify-employeeapp-dev-84743",
+      "StackId": "arn:aws:cloudformation:us-east-1:932080214319:stack/amplify-employeeapp-dev-84743/03cd88f0-f968-11ed-bf8e-0efda22baddd",
+      "AmplifyAppId": "dbsvy3dmgplc6"
+    },
+    "categories": {
+      "auth": {
+        "employeeappb6357852": {},
+        "userPoolGroups": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dbsvy3dmgplc6",
+          "type": "manual"
+        }
+      },
+      "api": {
+        "employeeapp": {}
+      }
+    }
+  },
+  "stage": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-employeeapp-stage-7034b-authRole",
+      "UnauthRoleArn": "arn:aws:iam::590184051493:role/amplify-employeeapp-stage-7034b-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::590184051493:role/amplify-employeeapp-stage-7034b-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-employeeapp-stage-7034b-deployment",
+      "UnauthRoleName": "amplify-employeeapp-stage-7034b-unauthRole",
+      "StackName": "amplify-employeeapp-stage-7034b",
+      "StackId": "arn:aws:cloudformation:us-east-1:590184051493:stack/amplify-employeeapp-stage-7034b/d542e680-d4e7-11ef-8f2a-0affde745fe7",
+      "AmplifyAppId": "d1j24g638fi46n"
+    },
+    "categories": {
+      "auth": {
+        "employeeappb6357852": {},
+        "userPoolGroups": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1j24g638fi46n",
+          "type": "manual"
+        }
+      },
+      "api": {
+        "employeeapp": {}
+      }
+    }
+  }
+}

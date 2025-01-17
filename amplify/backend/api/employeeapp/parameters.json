@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "employeeapp",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authemployeeappb6357852",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2025-01-17T15:49:09.327Z"
+}
